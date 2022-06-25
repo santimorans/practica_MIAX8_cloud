@@ -18,7 +18,7 @@ app.title = "App Cloud"
 
 pil_image = Image.open("imagenes/bmelogo.png")
 
-app.layout = html.Div([html.Div(className = "row", children = [html.Img(style = {"margin-left" : "50px", "display": "inline-block"}, src=pil_image), html.H1(style={'textAlign': 'center', "font-size": "50px", "display" : "inline-block", "font-family": "Georgia"}, children = "MIAX-8 Tecnologías Cloud")]),
+app.layout = html.Div([html.Div(className = "row", children = [html.Img(style = {"margin-left" : "50px", "display": "inline-block"}, src=pil_image), html.H1(style={'textAlign': 'center', "font-size": "50px", "display" : "inline-block", "font-family": "Georgia", "margin-left" : "275px"}, children = "MIAX-8 Tecnologías Cloud")]),
     html.H3(children = "Aplicación Dash", style={'textAlign': 'center','color': "#00008b", "font-family": "Georgia", "marginBottom": "75px"}),
     dcc.Markdown(style = {"font-size": "20px", "marginBottom": "50px", "margin-left" : "50px"}, children = "Selecciona el vencimiento para el tipo de opción correspondiente para ver el skew de volatilidad:"),
     html.Div(className = "row", children = [(dcc.RadioItems(id="tipo_opcion", 
