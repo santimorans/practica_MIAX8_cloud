@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\santi\OneDrive\Escritorio\Practica Cloud\venv"
+VIRTUAL_ENV="C:\Users\santi\OneDrive\Escritorio\Facturas 2T 2022\practica_MIAX8_cloud\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
