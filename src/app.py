@@ -71,4 +71,4 @@ def update_graph(tipo_opcion, vencimiento_opcion):
     return fig.update_layout(title= "Volatility Skew", xaxis_title="Strike Opción", yaxis_title="Volatilidad Implícita", font=dict(family="Georgia",size=14,color="Dark Blue"))
 
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run_server(host="0.0.0.0", debug=False, port = 8080)
